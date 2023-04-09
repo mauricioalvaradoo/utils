@@ -6,3 +6,4 @@ Códigos cortos para resolver los siguientes problemas:
 * [Transformar video (.mp4) a un audio (.mp3)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/mp4_to_mp3.py)
 * [Lector OCR de PDFs a texto (.txt)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/pdf_to_text.py)
 * [Divisor de PDFs según rango de páginas](https://github.com/mauricioalvaradoo/utils/blob/master/codes/split_pdfs.py)
+* [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/usd_to_pen.py)
