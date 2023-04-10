@@ -22,6 +22,6 @@ Códigos cortos para resolver los siguientes problemas:
       <img src="figures/pdf.png" width="100">
       <img src="figures/exchange.png" width="100">
       <img src="figures/translate.png" width="100">
-      <img src="figures/calculadora.png" width="100">
+      <img src="figures/contrasena.png" width="100">
 </p>
 </br>
