@@ -4,6 +4,7 @@ import numpy as np
 
 
 ''' Conversor de moneda '''
+''' Código creado para ser corrido en la terminal '''
 
 
 usd  = yf.Ticker('PEN=X').history(period='1d')
