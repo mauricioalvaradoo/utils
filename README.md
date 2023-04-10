@@ -17,10 +17,10 @@ Códigos cortos para resolver los siguientes problemas:
       <img src="figures/youtube.png" width="100">
       <img src="figures/mp3.png" width="100">
       <img src="figures/ocr.png" width="100">
-      <img src="figures/pdf.png" width="100">
-      <img src="figures/exchange.png" width="100">
 </p>
 <p align="center">
+      <img src="figures/pdf.png" width="100">
+      <img src="figures/exchange.png" width="100">
       <img src="figures/translate.png" width="100">
       <img src="figures/calculadora.png" width="100">
 </p>
