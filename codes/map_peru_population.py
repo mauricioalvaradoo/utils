@@ -11,12 +11,12 @@ df = df[['Departamento', 'Distrito', 'Provincia', 'X', 'Y', 'Poblacion']]
 
 # Initial view
 view = pdk.ViewState(
-    latitude=-9,
+    latitude=-10,
     longitude=-75,
     zoom=6,
-    pitch=50, # Inclinación
+    pitch=40, # Inclinación
     min_zoom=5.5,
-    max_zoom=6.5,
+    max_zoom=8.5,
     bearing=2, # Rotación
 )
 
@@ -27,7 +27,7 @@ layer = pdk.Layer(
     get_position=['X', 'Y'], # Longitud, Latitud
     get_elevation='Poblacion',
     elevation_scale=0.3,
-    radius=8_000,
+    radius=5_000,
     get_fill_color=[120, 250, 120],
     pickable=True,
     auto_highlight=True,
