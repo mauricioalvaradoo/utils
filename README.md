@@ -9,6 +9,7 @@ Códigos cortos para resolver los siguientes problemas:
 * [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/usd_to_pen.py)
 * [Traductor de texto](https://github.com/mauricioalvaradoo/utils/blob/master/codes/translator.py)
 * [Generador de contraseñas seguras](https://github.com/mauricioalvaradoo/utils/blob/master/codes/random_pwd.py)
+* [Mapa poblacional de Perú](https://github.com/mauricioalvaradoo/utils/blob/master/codes/map_peru_population.py)
 
 
 </br>
@@ -23,5 +24,6 @@ Códigos cortos para resolver los siguientes problemas:
       <img src="figures/exchange.png" width="100">
       <img src="figures/translate.png" width="100">
       <img src="figures/contrasena.png" width="100">
+      <img src="figures/mundo.png" width="100">
 </p>
 </br>
