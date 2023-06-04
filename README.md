@@ -1,5 +1,5 @@
 # Utils
-Códigos cortos en Python para resolver problemas específicos.
+Códigos cortos en Python para resolver problemas específicos. En la medida de lo posible, se busca implementar el paradigma de programación orientada a objetivos.
 
 
 ### Herramientas
