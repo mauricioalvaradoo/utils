@@ -9,11 +9,11 @@ class Collatz():
 
     ''' Definir número entre 1-100 '''
     def __init__(self, number, iters=1_000):
-        assert type(number) == int, 'El número debe ser entero'
+        assert type(number) == int, 'El número debe ser entero.'
         assert number >= 1, 'El número debe ser por lo menos 1.'
         assert number <= 100, 'El número debe ser máximo 100.'
-        assert type(iters) == int, 'El número de iteraciones debe ser entero'
-        assert iters >= 200, 'Por lo menos debes seleccionar 200 iteraciones'
+        assert type(iters) == int, 'El número de iteraciones debe ser entero.'
+        assert iters >= 200, 'Por lo menos debes seleccionar 200 iteraciones.'
 
         self.number = number
         self.iters = iters

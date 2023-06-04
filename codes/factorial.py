@@ -1,10 +1,10 @@
 ''' Estimación de factores '''
-''' Estimación de un factorial '''
+''' Estimación de una secuencia de factoriales '''
 
 
 class Factorial():
     def __init__(self, maxnumb):
-        assert maxnumb>=0, 'El número debe ser positivo'
+        assert maxnumb>=0, 'El número debe ser positivo.'
 
         self.maxnumb = maxnumb
         
@@ -22,7 +22,7 @@ class Factorial():
                 factorial *= i
                 factorials[i] = factorial
 
-        return print(f'\nLa secuencia de factoriales es el siguiente:\n{factorials}')
+        return print(f'\nLa secuencia de factoriales es el siguiente:\n{factorials}.')
 
 
 # testing

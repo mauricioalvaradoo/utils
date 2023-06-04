@@ -4,7 +4,7 @@
 class Fibonacci():
     def __init__(self, maxnumb):
         assert maxnumb >= 1, 'Por lo menos, el máximo número debe ser 1.'
-        assert type(maxnumb) == int, 'Máximo número debe ser entero'
+        assert type(maxnumb) == int, 'Máximo número debe ser entero.'
 
         self.maxnumb = maxnumb
 
