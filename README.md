@@ -9,6 +9,7 @@ Códigos cortos en Python para resolver problemas específicos.
 * [Divisor de PDFs según rango de páginas](https://github.com/mauricioalvaradoo/utils/blob/master/codes/split_pdfs.py)
 * [Traductor de texto](https://github.com/mauricioalvaradoo/utils/blob/master/codes/translator.py)
 * [Generador de contraseñas seguras](https://github.com/mauricioalvaradoo/utils/blob/master/codes/random_pwd.py)
+* [Calcular IMC](https://github.com/mauricioalvaradoo/utils/blob/master/codes/imc.py)
 * [Mapa poblacional de Perú](https://github.com/mauricioalvaradoo/utils/blob/master/codes/map_peru_population.py)
 
 
