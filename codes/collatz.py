@@ -23,7 +23,7 @@ class Collatz():
         new_number = self.number
 
         for i in range(1, self.iters+1):
-            numbers[i] = new_number
+            numbers[i] = int(new_number)
         
             if new_number % 2 == 0: # par
                 new_number = new_number/2
@@ -35,8 +35,9 @@ class Collatz():
 
 # testing
 conjetura = Collatz(number=57, iters=200)
-conjetura.iteraciones()
+conjetura = conjetura.iteraciones()
 conjetura
+
 
 # figura de las simulaciones
 iters  = list(conjetura.keys())
