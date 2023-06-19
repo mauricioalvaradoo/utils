@@ -7,6 +7,7 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Transformar video (.mp4) a un audio (.mp3)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/mp4_to_mp3.py)
 * [Lector OCR de PDFs a texto (.txt)](https://github.com/mauricioalvaradoo/utils/blob/master/codes/pdf_to_text.py)
 * [Divisor de PDFs según rango de páginas](https://github.com/mauricioalvaradoo/utils/blob/master/codes/split_pdfs.py)
+* [Unión de PDFs](https://github.com/mauricioalvaradoo/utils/blob/master/codes/merge_pdfs.py)
 * [Traductor de texto](https://github.com/mauricioalvaradoo/utils/blob/master/codes/translator.py)
 * [Generador de contraseñas seguras](https://github.com/mauricioalvaradoo/utils/blob/master/codes/random_pwd.py)
 * [Calcular IMC](https://github.com/mauricioalvaradoo/utils/blob/master/codes/imc.py)
