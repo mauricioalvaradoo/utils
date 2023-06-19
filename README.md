@@ -21,4 +21,6 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Secuencia de Fibonacci](https://github.com/mauricioalvaradoo/utils/blob/master/codes/fibonacci.py)
 * [Obtención de números primos](https://github.com/mauricioalvaradoo/utils/blob/master/codes/prime_numbers.py)
 * [Factoriales](https://github.com/mauricioalvaradoo/utils/blob/master/codes/factorial.py)
+* [Máximo Común Divisor](https://github.com/mauricioalvaradoo/utils/blob/master/codes/mcd.py)
+* [Mínimo Común Múltiplo](https://github.com/mauricioalvaradoo/utils/blob/master/codes/mcm.py)
 
