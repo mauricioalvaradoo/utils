@@ -16,10 +16,11 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 
 
 ### Matemática
-* [Calculadora gráfica](https://github.com/mauricioalvaradoo/utils/blob/master/graphic_calculator.py)
-* [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/usd_to_pen.py)
+* [Método Newton-Raphson](https://github.com/mauricioalvaradoo/utils/blob/master/newton_raphson.py)
 * [Conjetura de Collatz](https://github.com/mauricioalvaradoo/utils/blob/master/collatz.py)
 * [Secuencia de Fibonacci](https://github.com/mauricioalvaradoo/utils/blob/master/fibonacci.py)
+* [Calculadora gráfica](https://github.com/mauricioalvaradoo/utils/blob/master/graphic_calculator.py)
+* [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/usd_to_pen.py)
 * [Obtención de números primos](https://github.com/mauricioalvaradoo/utils/blob/master/prime_numbers.py)
 * [Factoriales](https://github.com/mauricioalvaradoo/utils/blob/master/factorial.py)
 * [Máximo Común Divisor](https://github.com/mauricioalvaradoo/utils/blob/master/mcd.py)
