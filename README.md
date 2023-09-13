@@ -19,6 +19,7 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Método Newton-Raphson](https://github.com/mauricioalvaradoo/utils/blob/master/newton_raphson.py)
 * [Conjetura de Collatz](https://github.com/mauricioalvaradoo/utils/blob/master/collatz.py)
 * [Secuencia de Fibonacci](https://github.com/mauricioalvaradoo/utils/blob/master/fibonacci.py)
+* [Mínimos Cuadrados Ordinarios (MCO)](https://github.com/mauricioalvaradoo/utils/blob/master/mco.py)
 * [Calculadora gráfica](https://github.com/mauricioalvaradoo/utils/blob/master/graphic_calculator.py)
 * [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/usd_to_pen.py)
 * [Obtención de números primos](https://github.com/mauricioalvaradoo/utils/blob/master/prime_numbers.py)
