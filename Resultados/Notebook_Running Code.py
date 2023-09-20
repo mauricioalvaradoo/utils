@@ -86,12 +86,12 @@ for i in range(8):
 
 # To better handle large outputs, the output area can be collapsed. Run the following cell and then single- or double- click on the active area to the left of the output:
 
-for i in range(50):
+for i in range(20):
     print(i)
 
 
 # Beyond a certain point, output will scroll automatically:
 
-for i in range(500):
+for i in range(20):
     print(2**i - 1)
 
