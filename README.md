@@ -6,6 +6,7 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Descargar videos de Youtube (.mp4)](https://github.com/mauricioalvaradoo/utils/blob/master/yt_download.py)
 * [Transformar video (.mp4) a un audio (.mp3)](https://github.com/mauricioalvaradoo/utils/blob/master/mp4_to_mp3.py)
 * [Transformar video (.mp4) a un gif (.gif)](https://github.com/mauricioalvaradoo/utils/blob/master/mp4_to_gif.py)
+* [Transformar jupyter notebook (ipynb) a un archivo python (.py)](https://github.com/mauricioalvaradoo/utils/blob/master/nb_to_py.py)
 * [Lector OCR de PDFs a texto (.txt)](https://github.com/mauricioalvaradoo/utils/blob/master/pdf_to_text.py)
 * [Divisor de PDFs según rango de páginas](https://github.com/mauricioalvaradoo/utils/blob/master/split_pdfs.py)
 * [Unión de PDFs](https://github.com/mauricioalvaradoo/utils/blob/master/merge_pdfs.py)
