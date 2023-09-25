@@ -12,8 +12,8 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Unión de PDFs](https://github.com/mauricioalvaradoo/utils/blob/master/merge_pdfs.py)
 * [Traductor de texto](https://github.com/mauricioalvaradoo/utils/blob/master/translator.py)
 * [Generador de contraseñas seguras](https://github.com/mauricioalvaradoo/utils/blob/master/random_pwd.py)
-* [Calcular IMC](https://github.com/mauricioalvaradoo/utils/blob/master/imc.py)
 * [Mapa poblacional de Perú](https://github.com/mauricioalvaradoo/utils/blob/master/map_peru_population.py)
+* [Calcular IMC](https://github.com/mauricioalvaradoo/utils/blob/master/imc.py)
 
 
 ### Matemática
@@ -21,6 +21,7 @@ Códigos cortos en Python para resolver problemas específicos. En la medida de 
 * [Conjetura de Collatz](https://github.com/mauricioalvaradoo/utils/blob/master/collatz.py)
 * [Secuencia de Fibonacci](https://github.com/mauricioalvaradoo/utils/blob/master/fibonacci.py)
 * [Mínimos Cuadrados Ordinarios (MCO)](https://github.com/mauricioalvaradoo/utils/blob/master/mco.py)
+* [Information Value (IV)](https://github.com/mauricioalvaradoo/utils/blob/master/iv.py)
 * [Calculadora gráfica](https://github.com/mauricioalvaradoo/utils/blob/master/graphic_calculator.py)
 * [Conversor de moneda (US$ a S/, y viceversa)](https://github.com/mauricioalvaradoo/utils/blob/master/usd_to_pen.py)
 * [Obtención de números primos](https://github.com/mauricioalvaradoo/utils/blob/master/prime_numbers.py)
