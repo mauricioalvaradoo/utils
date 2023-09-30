@@ -1,6 +1,7 @@
+# pip install optbinning
 import pandas as pd
 import numpy as np
-
+from optbinning import OptimalBinning
 
 ''' Information Value (IV) '''
 ''' Estimación de poder predictivo de cada feature dentro de un dataset '''
@@ -8,7 +9,7 @@ import numpy as np
     de una variable target a través los cortes de los feautres '''
 
 
-def get_iv(data, target, listvars, cuts=5):
+def get_iv(data, target, listvars, optcuts=True, cuts=5):
     ''' Estimar IV de variable categórica o numérica
 
     Parameters
@@ -19,11 +20,15 @@ def get_iv(data, target, listvars, cuts=5):
         Nombre de variable target. Valores: (0/1). Default: event = 1
     list_vars: list
         Lista de 'features' a la cual estimar su IV.
+    optcuts: bool
+        Cortes óptimos. Default: True. Con False se estima los cortes uniformes.
     cuts: int
-        Cortes que se aplican a 'features' numéricas. Default: 5. 
+        Cantidad de cortes uniformes que se aplican a 'features' numéricas. Default: 5. 
     
     Returns
     -------
+    df: pd.DataFrame
+        Tabla retransformada con rangos.
     store_iv_stat : dict
         Almacenamiento de los IV estimados para cada 'feature'.
     store_iv_tables : dict
@@ -39,16 +44,25 @@ def get_iv(data, target, listvars, cuts=5):
     else:
         df[target].astype('int')
     
-    # Set features format
-    for v in listvars:
-        if (df[v].dtype == 'int64') or (df[v].dtype == 'float'):
+    # Transform numerical features
+    numeric = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+    numeric_features = df.select_dtypes(include=numeric)
+    numeric_features.pop(target)
+    numeric_features = [v for v in numeric_features if v in listvars]
+    
+    if optcuts: # Optimal cuts
+        for v in numeric_features:
+            optb = OptimalBinning(name=v, dtype='numerical', solver='cp')
+            optb.fit(x=df[v], y=df[target])
+            df[v] = optb.transform(df[v], metric='bins')
+    else:
+        # Uniform cuts
+        for v in numeric_features:
             try:
                 df[v] = pd.qcut(df[v], cuts, duplicates='drop')
             except:
                 print(f'La variable {v} no se pudo generar rangos')
-        else:
-            pass
-    
+        
     
     store_iv_stat   = {}
     store_iv_tables = {}
@@ -82,7 +96,7 @@ def get_iv(data, target, listvars, cuts=5):
         store_iv_tables[v] = iv_table
     
     
-    return store_iv_stat, store_iv_tables
+    return df, store_iv_stat, store_iv_tables
 
 
 
@@ -118,12 +132,13 @@ features = [
 target = 'default.payment.next.month'
 
 
-ivs, ivstab = get_iv(
+new_df, ivs, ivstab = get_iv(
     data=df,
     target=target,
     listvars=features,
-    cuts=5
+    optcuts=True
 )
 
+print(new_df)
 print(ivs)
 print(ivstab['AGE'])
